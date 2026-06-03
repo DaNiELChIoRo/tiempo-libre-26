@@ -4111,6 +4111,8 @@ p.bubble-text { margin-bottom: 4px; }
     fab.classList.toggle('hidden', window.innerHeight + window.scrollY >= document.body.scrollHeight - 60);
   }
   window.addEventListener('scroll', updateFab, { passive: true });
+  // Start at the bottom (most recent messages first)
+  window.scrollTo(0, document.body.scrollHeight);
   updateFab();
 
   // ── Chat parser ───────────────────────────────────────────────────────────

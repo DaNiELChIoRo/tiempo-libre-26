@@ -25,9 +25,7 @@ header {
 header h1 { font-size: 16px; font-weight: 600; }
 header p  { font-size: 12px; opacity: .75; margin-top: 2px; }
 .msg-count { margin-left: auto; font-size: 11px; opacity: .6; white-space: nowrap; }
-.chat-area {
-  flex: 1; padding: 8px 12px 80px; max-width: 720px; width: 100%; margin: 0 auto;
-}
+.chat-area { flex: 1; padding: 8px 12px 80px; max-width: 720px; width: 100%; margin: 0 auto; }
 .date-sep { text-align: center; margin: 16px 0 8px; }
 .date-sep span {
   background: rgba(255,255,255,.5); backdrop-filter: blur(4px); color: #555;
@@ -58,7 +56,6 @@ header p  { font-size: 12px; opacity: .75; margin-top: 2px; }
 .file-link { color: #128c7e; font-size: 13px; }
 p.bubble-text { margin-bottom: 4px; }
 
-/* Scroll to bottom FAB */
 #scroll-bottom-fab {
   position: fixed; bottom: 20px; right: 166px; z-index: 100;
   background: #25d366; color: white;
@@ -72,7 +69,6 @@ p.bubble-text { margin-bottom: 4px; }
 #scroll-bottom-fab:hover { background: #1da851; }
 #scroll-bottom-fab.hidden { opacity: 0; pointer-events: none; transform: translateY(8px); }
 
-/* Update FAB */
 #update-fab {
   position: fixed; bottom: 20px; right: 20px; z-index: 100;
   background: #075e54; color: white;
@@ -83,7 +79,6 @@ p.bubble-text { margin-bottom: 4px; }
 }
 #update-fab:hover { background: #128c7e; }
 
-/* Modal */
 #zip-modal {
   position: fixed; inset: 0; z-index: 200;
   background: rgba(0,0,0,.55);
@@ -115,11 +110,12 @@ p.bubble-text { margin-bottom: 4px; }
   border: 1px solid #ddd; border-radius: 8px;
   background: white; cursor: pointer; font-size: 14px;
 }
-#upload-status { font-size: 13px; color: #555; min-height: 20px; margin-top: 4px; }
+#upload-status { font-size: 13px; color: #555; min-height: 20px; margin-top: 8px; }
 #progress-wrap { display: none; margin-top: 10px; }
 #progress-bar-bg { background: #eee; border-radius: 6px; height: 8px; overflow: hidden; }
-#progress-bar { height: 100%; width: 0; background: #25d366; transition: width .1s; border-radius: 6px; }
+#progress-bar { height: 100%; width: 0; background: #25d366; transition: width .15s; border-radius: 6px; }
 #progress-label { font-size: 12px; color: #888; margin-top: 4px; text-align: right; }
+
 </style>
 </head>
 <body>
@@ -4075,9 +4071,11 @@ p.bubble-text { margin-bottom: 4px; }
 <div class="msg-row them"><div class="bubble them"><span class="bubble-text">Todos los días excepto el viernes<br></span><span class="time">3:44:29 p. m.</span></div></div>
 </div>
 
-<div id="scroll-bottom-fab" title="Ir al final" onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})">↓</div>
+<div id="scroll-bottom-fab" title="Ir al final"
+     onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})">&#8595;</div>
 
-<div id="update-fab" title="Cargar nuevo ZIP" onclick="document.getElementById('zip-modal').classList.add('open')">↩ Actualizar chat</div>
+<div id="update-fab" title="Cargar nuevo ZIP"
+     onclick="document.getElementById('zip-modal').classList.add('open')">&#8629; Actualizar chat</div>
 
 <div id="zip-modal">
   <div id="zip-modal-inner">
@@ -4105,178 +4103,205 @@ p.bubble-text { margin-bottom: 4px; }
 </div>
 
 <script>
-// ── Scroll FAB ──────────────────────────────────────────────────────────────
+
 (function() {
+  // ── Scroll FAB ────────────────────────────────────────────────────────────
   const fab = document.getElementById('scroll-bottom-fab');
-  function update() {
+  function updateFab() {
     fab.classList.toggle('hidden', window.innerHeight + window.scrollY >= document.body.scrollHeight - 60);
   }
-  window.addEventListener('scroll', update, { passive: true });
-  update();
+  window.addEventListener('scroll', updateFab, { passive: true });
+  updateFab();
+
+  // ── Chat parser ───────────────────────────────────────────────────────────
+  const LTR = '‎';
+  const MSG_RE = /^\[(\d{1,2}\/\d{1,2}\/\d{2}), (\d{1,2}:\d{2}:\d{2}) ([ap]\. m\.)\] ([^:]+): (.+)$/;
+
+  function parseChat(text) {
+    // Normalize non-breaking spaces and line endings
+    text = text.split(' ').join(' ').split(' ').join(' ');
+    text = text.split('\r\n').join('\n').split('\r').join('\n');
+    const lines = text.split('\n');
+    const messages = [];
+    let current = null;
+    for (const raw of lines) {
+      const line = raw.replace(/^‎/, '');
+      const m = MSG_RE.exec(line);
+      if (m) {
+        if (current) { current.text = current.lines.join('\n'); messages.push(current); }
+        const [, date, time, ampm, sender, txt] = m;
+        const clean = txt.replace(/^‎/, '');
+        current = { date, time: time + ' ' + ampm, sender: sender.trim(), text: clean, lines: [clean] };
+      } else if (current) {
+        current.lines.push(raw);
+      }
+    }
+    if (current) { current.text = current.lines.join('\n'); messages.push(current); }
+    return messages;
+  }
+
+  function fmtDate(d) {
+    const [day, mon, yr] = d.split('/');
+    const months = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+    return parseInt(day) + ' ' + months[parseInt(mon)] + ' 20' + yr;
+  }
+
+  function esc(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function renderMessage(msg, mediaUrls) {
+    const isMe = msg.sender === 'DML';
+    const side = isMe ? 'me' : 'them';
+    const text = msg.text;
+
+    if (text.includes('cifrados de extremo')) {
+      return '<div class="sys-msg">🔒 Los mensajes están cifrados de extremo a extremo.</div>';
+    }
+
+    const adjMatch = text.match(/^<adjunto:\s*(.+?)>/);
+    let inner = '';
+
+    if (adjMatch) {
+      const fname = adjMatch[1].trim();
+      const ext = fname.split('.').pop().toUpperCase();
+      const pre = text.replace(/<adjunto:\s*.+?>/, '').trim();
+      if (pre) inner += '<p class="bubble-text">' + esc(pre) + '</p>';
+      const src = (mediaUrls && mediaUrls[fname]) ? mediaUrls[fname] : esc(fname);
+      if (['JPG','JPEG','PNG'].includes(ext)) {
+        inner += '<a href="' + src + '" target="_blank"><img class="media-img" src="' + src + '" loading="lazy"></a>';
+      } else if (ext === 'WEBP') {
+        inner += '<img class="sticker-img" src="' + src + '" loading="lazy">';
+      } else if (['OPUS','MP3','M4A','OGG','AAC'].includes(ext)) {
+        inner += '<div class="audio-wrap"><audio controls preload="none">'
+               + '<source src="' + src + '" type="audio/ogg; codecs=opus">'
+               + '<source src="' + src + '" type="audio/opus"></audio>'
+               + '<a class="dl-link" href="' + src + '" download>⬇️</a></div>';
+      } else if (['MP4','MOV','WEBM'].includes(ext)) {
+        inner += '<video class="media-vid" controls preload="none" src="' + src + '"></video>';
+      } else {
+        inner += '<a href="' + src + '" class="file-link">📎 ' + esc(fname) + '</a>';
+      }
+    } else if (/sticker omitido/i.test(text)) {
+      inner = '<span class="omitted">🌀 Sticker no disponible</span>';
+    } else if (/audio omitido/i.test(text)) {
+      inner = '<span class="omitted">🎤 Audio no disponible</span>';
+    } else if (/imagen omitida/i.test(text)) {
+      inner = '<span class="omitted">🖼️ Imagen no disponible</span>';
+    } else if (/video omitido/i.test(text)) {
+      inner = '<span class="omitted">🎬 Video no disponible</span>';
+    } else {
+      inner = '<span class="bubble-text">' + esc(text).replace(/\n/g, '<br>') + '</span>';
+    }
+
+    return '<div class="msg-row ' + side + '"><div class="bubble ' + side + '">'
+         + inner + '<span class="time">' + esc(msg.time) + '</span></div></div>';
+  }
+
+  function renderAll(messages, mediaUrls) {
+    let out = '', lastDate = null;
+    for (const msg of messages) {
+      if (msg.date !== lastDate) {
+        out += '<div class="date-sep"><span>' + fmtDate(msg.date) + '</span></div>';
+        lastDate = msg.date;
+      }
+      out += renderMessage(msg, mediaUrls);
+    }
+    return out;
+  }
+
+  // ── ZIP upload handler ────────────────────────────────────────────────────
+  window.handleDrop = function(e) {
+    e.preventDefault();
+    document.getElementById('drop-zone').classList.remove('drag-over');
+    const file = e.dataTransfer.files[0];
+    if (file) handleFile(file);
+  };
+
+  window.handleFile = function(file) {
+    if (!file || !file.name.toLowerCase().endsWith('.zip')) {
+      setStatus('Por favor selecciona un archivo .zip de WhatsApp', 'red'); return;
+    }
+    setStatus('Leyendo archivo...', '#075e54');
+    setProgress(0, true);
+
+    const reader = new FileReader();
+    reader.onprogress = function(e) {
+      if (e.lengthComputable) setProgress(Math.round(e.loaded / e.total * 35));
+    };
+    reader.onload = function(e) {
+      setProgress(35); setStatus('Extrayendo ZIP...', '#075e54');
+      JSZip.loadAsync(e.target.result).then(function(zip) {
+        if (!zip.files['_chat.txt']) {
+          setStatus('❌ No se encontró _chat.txt en el ZIP', 'red');
+          setProgress(0, false); return;
+        }
+        setProgress(50); setStatus('Procesando mensajes...', '#075e54');
+        return zip.files['_chat.txt'].async('string').then(function(chatText) {
+          const messages = parseChat(chatText);
+          setProgress(65); setStatus('Cargando media...', '#075e54');
+
+          // Revoke old blob URLs
+          if (window._blobUrls) window._blobUrls.forEach(function(u) { URL.revokeObjectURL(u); });
+          window._blobUrls = [];
+
+          const mediaFiles = Object.keys(zip.files).filter(function(n) {
+            return n !== '_chat.txt' && !zip.files[n].dir;
+          });
+
+          let loaded = 0;
+          const mediaUrls = {};
+
+          function loadNext() {
+            if (loaded >= mediaFiles.length) {
+              setProgress(95); setStatus('Renderizando...', '#075e54');
+              document.getElementById('chat-area').innerHTML = renderAll(messages, mediaUrls);
+              document.getElementById('msg-count').textContent = messages.length + ' mensajes';
+              setProgress(100);
+              setStatus('✅ ' + messages.length + ' mensajes cargados', 'green');
+              setTimeout(function() {
+                document.getElementById('zip-modal').classList.remove('open');
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+              }, 800);
+              return;
+            }
+            const fname = mediaFiles[loaded];
+            zip.files[fname].async('blob').then(function(blob) {
+              const url = URL.createObjectURL(blob);
+              mediaUrls[fname] = url;
+              window._blobUrls.push(url);
+              loaded++;
+              setProgress(65 + Math.round(loaded / mediaFiles.length * 30));
+              loadNext();
+            });
+          }
+          loadNext();
+        });
+      }).catch(function(err) {
+        setStatus('❌ Error: ' + err.message, 'red');
+        setProgress(0, false);
+      });
+    };
+    reader.onerror = function() {
+      setStatus('❌ No se pudo leer el archivo', 'red');
+      setProgress(0, false);
+    };
+    reader.readAsArrayBuffer(file);
+  };
+
+  function setStatus(msg, color) {
+    const el = document.getElementById('upload-status');
+    el.textContent = msg;
+    el.style.color = color || '#555';
+  }
+  function setProgress(pct, show) {
+    const wrap = document.getElementById('progress-wrap');
+    if (show !== undefined) wrap.style.display = show ? 'block' : 'none';
+    document.getElementById('progress-bar').style.width = pct + '%';
+    document.getElementById('progress-label').textContent = pct + '%';
+  }
 })();
 
-// ── Chat parser (mirrors Python logic) ──────────────────────────────────────
-const LTR = '\u200e';
-const MSG_RE = /^\[(\d{1,2}\/\d{1,2}\/\d{2}), (\d{1,2}:\d{2}:\d{2}) ([ap]\. m\.)\] ([^:]+): (.+)$/;
-
-function parseChat(text) {
-  text = text.replace(/ /g, ' ').replace(/ /g, ' ').replace(/
-/g, '\n').replace(//g, '\n');
-  const lines = text.split('\n');
-  const messages = [];
-  let current = null;
-  for (const raw of lines) {
-    const line = raw.replace(/^‎/, '');
-    const m = MSG_RE.exec(line);
-    if (m) {
-      if (current) { current.text = current.lines.join('\n'); messages.push(current); }
-      const [, date, time, ampm, sender, txt] = m;
-      const clean = txt.replace(/^‎/, '');
-      current = { date, time: time + ' ' + ampm, sender: sender.trim(), text: clean, lines: [clean] };
-    } else if (current) {
-      current.lines.push(raw);
-    }
-  }
-  if (current) { current.text = current.lines.join('\n'); messages.push(current); }
-  return messages;
-}
-
-function fmtDate(d) {
-  const [day, mon, yr] = d.split('/');
-  const months = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-  return `${parseInt(day)} ${months[parseInt(mon)]} 20${yr}`;
-}
-
-function esc(s) {
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-
-function renderMessage(msg, mediaUrls) {
-  const isMe = msg.sender === 'DML';
-  const side = isMe ? 'me' : 'them';
-  const text = msg.text;
-
-  if (text.includes('cifrados de extremo')) {
-    return '<div class="sys-msg">🔒 Los mensajes están cifrados de extremo a extremo.</div>';
-  }
-
-  const adjMatch = text.match(/^<adjunto:\s*(.+?)>/);
-  let inner = '';
-
-  if (adjMatch) {
-    const fname = adjMatch[1].trim();
-    const ext = fname.split('.').pop().toUpperCase();
-    const pre = text.replace(/<adjunto:\s*.+?>/, '').trim();
-    if (pre) inner += `<p class="bubble-text">${esc(pre)}</p>`;
-    const src = mediaUrls[fname] || esc(fname);
-    if (['JPG','JPEG','PNG'].includes(ext)) {
-      inner += `<a href="${src}" target="_blank"><img class="media-img" src="${src}" loading="lazy"></a>`;
-    } else if (ext === 'WEBP') {
-      inner += `<img class="sticker-img" src="${src}" loading="lazy">`;
-    } else if (['OPUS','MP3','M4A','OGG','AAC'].includes(ext)) {
-      inner += `<div class="audio-wrap"><audio controls preload="none"><source src="${src}" type="audio/ogg; codecs=opus"><source src="${src}" type="audio/opus"></audio><a class="dl-link" href="${src}" download>⬇️</a></div>`;
-    } else if (['MP4','MOV','WEBM'].includes(ext)) {
-      inner += `<video class="media-vid" controls preload="none" src="${src}"></video>`;
-    } else {
-      inner += `<a href="${src}" class="file-link">📎 ${esc(fname)}</a>`;
-    }
-  } else if (/sticker omitido/i.test(text)) {
-    inner = '<span class="omitted">🌀 Sticker no disponible</span>';
-  } else if (/audio omitido/i.test(text)) {
-    inner = '<span class="omitted">🎤 Audio no disponible</span>';
-  } else if (/imagen omitida/i.test(text)) {
-    inner = '<span class="omitted">🖼️ Imagen no disponible</span>';
-  } else if (/video omitido/i.test(text)) {
-    inner = '<span class="omitted">🎬 Video no disponible</span>';
-  } else {
-    inner = `<span class="bubble-text">${esc(text).replace(/\n/g, '<br>')}</span>`;
-  }
-
-  return `<div class="msg-row ${side}"><div class="bubble ${side}">${inner}<span class="time">${esc(msg.time)}</span></div></div>`;
-}
-
-function renderAll(messages, mediaUrls) {
-  let html = '', lastDate = null;
-  for (const msg of messages) {
-    if (msg.date !== lastDate) {
-      html += `<div class="date-sep"><span>${fmtDate(msg.date)}</span></div>`;
-      lastDate = msg.date;
-    }
-    html += renderMessage(msg, mediaUrls);
-  }
-  return html;
-}
-
-// ── ZIP handler ──────────────────────────────────────────────────────────────
-function handleDrop(e) {
-  e.preventDefault();
-  document.getElementById('drop-zone').classList.remove('drag-over');
-  const file = e.dataTransfer.files[0];
-  if (file) handleFile(file);
-}
-
-function handleFile(file) {
-  if (!file || !file.name.endsWith('.zip')) {
-    setStatus('Por favor selecciona un archivo .zip de WhatsApp', 'red'); return;
-  }
-  setStatus('Leyendo ZIP...', '#075e54');
-  setProgress(0, true);
-
-  const reader = new FileReader();
-  reader.onprogress = e => { if (e.lengthComputable) setProgress(Math.round(e.loaded/e.total*40)); };
-  reader.onload = async e => {
-    try {
-      setProgress(40); setStatus('Extrayendo archivos...', '#075e54');
-      const zip = await JSZip.loadAsync(e.target.result);
-      if (!zip.files['_chat.txt']) {
-        setStatus('❌ No se encontró _chat.txt en el ZIP', 'red'); setProgress(0,false); return;
-      }
-      setProgress(55); setStatus('Procesando mensajes...', '#075e54');
-      const chatText = await zip.files['_chat.txt'].async('string');
-      const messages = parseChat(chatText);
-
-      setProgress(70); setStatus('Cargando media...', '#075e54');
-      // Revoke previous blob URLs to free memory
-      if (window._blobUrls) window._blobUrls.forEach(URL.revokeObjectURL);
-      window._blobUrls = [];
-      const mediaUrls = {};
-      const mediaFiles = Object.keys(zip.files).filter(n => n !== '_chat.txt' && !zip.files[n].dir);
-      let loaded = 0;
-      for (const fname of mediaFiles) {
-        const blob = await zip.files[fname].async('blob');
-        const url = URL.createObjectURL(blob);
-        mediaUrls[fname] = url;
-        window._blobUrls.push(url);
-        loaded++;
-        setProgress(70 + Math.round(loaded / mediaFiles.length * 25));
-      }
-
-      setProgress(96); setStatus('Renderizando...', '#075e54');
-      document.getElementById('chat-area').innerHTML = renderAll(messages, mediaUrls);
-      document.getElementById('msg-count').textContent = messages.length + ' mensajes';
-      setProgress(100);
-      setStatus('✅ Chat cargado (' + messages.length + ' mensajes)', 'green');
-      setTimeout(() => {
-        document.getElementById('zip-modal').classList.remove('open');
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-      }, 700);
-    } catch(err) {
-      setStatus('❌ Error: ' + err.message, 'red'); setProgress(0, false);
-    }
-  };
-  reader.readAsArrayBuffer(file);
-}
-
-function setStatus(msg, color) {
-  const el = document.getElementById('upload-status');
-  el.textContent = msg; el.style.color = color || '#555';
-}
-function setProgress(pct, show) {
-  const wrap = document.getElementById('progress-wrap');
-  if (show !== undefined) wrap.style.display = show ? 'block' : 'none';
-  document.getElementById('progress-bar').style.width = pct + '%';
-  document.getElementById('progress-label').textContent = pct + '%';
-}
 </script>
 </body>
 </html>

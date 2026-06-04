@@ -2710,7 +2710,7 @@ Dormir algo tarde :/
 [18/02/26, 1:04:04 p. m.] DML: ya me dijeron que soy medio….. dependiente 😕
 [18/02/26, 1:04:16 p. m.] Daniela Lovera: quien?
 [18/02/26, 1:04:21 p. m.] DML: una amiga
-[18/02/26, 1:04:37 p. m.] DML: osea en el aspecto de que mando muchos audios muchos temas...
+[18/02/26, 1:04:36 p. m.] DML: osea en el aspecto de que mando muchos audios muchos temas...
 [18/02/26, 1:04:38 p. m.] DML: mucho...
 [18/02/26, 1:04:58 p. m.] Daniela Lovera: pero eso no dependiente
 [18/02/26, 1:05:13 p. m.] Daniela Lovera: más bien es parte de tu deficit de atención
@@ -2796,7 +2796,7 @@ Dormir algo tarde :/
 [19/02/26, 10:28:39 a. m.] DML: ademas hay otras recetas para aliviar eso...
 [19/02/26, 10:35:32 a. m.] Daniela Lovera: en que pensabas ? una cena puede ser
 [19/02/26, 10:35:38 a. m.] Daniela Lovera: o un café
-[19/02/26, 10:45:27 a. m.] DML: a lo mejor cenar....
+[19/02/26, 10:45:26 a. m.] DML: a lo mejor cenar....
 [19/02/26, 10:45:33 a. m.] DML: cafe en la noche ya no duermo :S
 [19/02/26, 10:59:01 a. m.] DML: como vez?
 [19/02/26, 10:59:06 a. m.] DML: te gusta la comida asiatica?
@@ -3319,7 +3319,7 @@ Ayer fui a una plaza a comprar unos pantalones, estuvimos igual en familia y com
 [14/04/26, 11:36:22 a. m.] Daniela Lovera: me agrada más que cuando se profundizaba
 [14/04/26, 11:36:36 a. m.] Daniela Lovera: teníamos serios problemas de malos entendidos
 [14/04/26, 12:17:59 p. m.] DML: Me alegra que me recuerdes de alguna manera
-[14/04/26, 12:18:15 p. m.] DML: Si, justo eso, me gusta tener conversaciones triviales, al final somos humanos. Sobre los malentendidos, te gustaría hablarlo? Al final de los errores se aprende.
+[14/04/26, 12:18:14 p. m.] DML: Si, justo eso, me gusta tener conversaciones triviales, al final somos humanos. Sobre los malentendidos, te gustaría hablarlo? Al final de los errores se aprende.
 [14/04/26, 12:27:49 p. m.] Daniela Lovera: no para nada fueron simplemente mala comunicación este medio no es para tener conversaciones importantes
 [14/04/26, 12:27:54 p. m.] Daniela Lovera: son para eso trivialidades
 [14/04/26, 12:28:27 p. m.] Daniela Lovera: la interaccion humana nunca se comparará con la vida via remota
@@ -3828,12 +3828,12 @@ Regreso?
 [02/06/26, 3:30:05 p. m.] Daniela Lovera: Ahhhh eso si podría ser
 [02/06/26, 3:30:12 p. m.] Daniela Lovera: Lo intentaré
 [02/06/26, 3:30:23 p. m.] Daniela Lovera: Pero no es fácil
-[02/06/26, 3:30:35 p. m.] DML: y como va tu dia?
+[02/06/26, 3:30:34 p. m.] DML: y como va tu dia?
 [02/06/26, 3:31:46 p. m.] Daniela Lovera: Mhhhh medio x la verdad y el tuyo
 [02/06/26, 3:33:17 p. m.] DML: y eso?
 [02/06/26, 3:34:14 p. m.] Daniela Lovera: Pues es un día simplón
 [02/06/26, 3:34:19 p. m.] Daniela Lovera: Me aburren esos días
-[02/06/26, 3:35:32 p. m.] DML: no hay mucho en la chamba?
+[02/06/26, 3:35:31 p. m.] DML: no hay mucho en la chamba?
 [02/06/26, 3:36:11 p. m.] Daniela Lovera: Siii pero lo que hay no me implica ningún reto
 [02/06/26, 3:36:54 p. m.] DML: :O
 [02/06/26, 3:36:59 p. m.] DML: hoy te toco ir a la oficina?
@@ -3911,3 +3911,7 @@ Regreso?
 [03/06/26, 10:42:27 p. m.] Daniela Lovera: Ya no puedo mantener los ojos abiertos, linda noche
 [04/06/26, 9:11:51 a. m.] DML: si ntp
 [04/06/26, 9:11:54 a. m.] DML: Buenos dias Danny ‎<Se editó este mensaje.>
+[04/06/26, 10:17:28 a. m.] DML: Cómo amaneciste?
+[04/06/26, 10:50:45 a. m.] Daniela Lovera: holi :)
+[04/06/26, 10:50:54 a. m.] Daniela Lovera: no pase buena noche
+[04/06/26, 10:53:54 a. m.] Daniela Lovera: y tu ?

@@ -2670,8 +2670,8 @@ Dormir algo tarde :/
 [17/02/26, 9:24:49 p. m.] Daniela Lovera: Solo es mucho trabajo, mucho estrés, poca recreación, poca conexión con uno mismo etc
 [17/02/26, 9:44:26 p. m.] DML: Pero vez gente, no? No tienes hora de café y chisme?
 [17/02/26, 9:45:41 p. m.] Daniela Lovera: Pero eso que tiene que ver Meneses
-[17/02/26, 10:31:32 p. m.] DML: pues ayuda a bajar el estress
-[17/02/26, 10:31:34 p. m.] DML: a despejarte
+[17/02/26, 10:31:31 p. m.] DML: pues ayuda a bajar el estress
+[17/02/26, 10:31:33 p. m.] DML: a despejarte
 [17/02/26, 10:31:41 p. m.] DML: que si solo estas todo el dia en el trabajo solo pensando en problemas
 [18/02/26, 9:06:43 a. m.] Daniela Lovera: Si veo gente pero no me ayuda a bajar el estrés
 [18/02/26, 9:07:14 a. m.] Daniela Lovera: Si tengo un grupo de apoyo muy grande
@@ -2691,27 +2691,27 @@ Dormir algo tarde :/
 [18/02/26, 10:22:07 a. m.] Daniela Lovera: soy como una cebolla
 ‎[18/02/26, 10:25:30 a. m.] DML: ‎<adjunto: 00000064-STICKER-2026-02-18-10-25-30.webp>
 [18/02/26, 10:32:06 a. m.] Daniela Lovera: pero como estás?
-[18/02/26, 10:34:00 a. m.] DML: XD
-[18/02/26, 10:34:03 a. m.] DML: pues bien, ahi vamos...
-[18/02/26, 10:34:07 a. m.] DML: ayer fue un buen dia
-[18/02/26, 10:34:14 a. m.] DML: pude avanzar en muchas cosas...
-[18/02/26, 10:34:21 a. m.] DML: darle a unos proyectos nuevos
-[18/02/26, 10:34:27 a. m.] DML: hice un bot para el mal...
-[18/02/26, 10:34:28 a. m.] DML: XD
-[18/02/26, 10:34:35 a. m.] DML: avence en el ruso
+[18/02/26, 10:33:59 a. m.] DML: XD
+[18/02/26, 10:34:02 a. m.] DML: pues bien, ahi vamos...
+[18/02/26, 10:34:06 a. m.] DML: ayer fue un buen dia
+[18/02/26, 10:34:13 a. m.] DML: pude avanzar en muchas cosas...
+[18/02/26, 10:34:20 a. m.] DML: darle a unos proyectos nuevos
+[18/02/26, 10:34:26 a. m.] DML: hice un bot para el mal...
+[18/02/26, 10:34:27 a. m.] DML: XD
+[18/02/26, 10:34:34 a. m.] DML: avence en el ruso
 [18/02/26, 10:34:42 a. m.] DML: casi acabo un libro que ando arrastrando desde el anho pasado
-‎[18/02/26, 10:35:07 a. m.] DML: Ando migrando el bot a una instancia en la nube... ‎<adjunto: 00000075-PHOTO-2026-02-18-10-35-06.jpg>
+‎[18/02/26, 10:35:06 a. m.] DML: Ando migrando el bot a una instancia en la nube... ‎<adjunto: 00000075-PHOTO-2026-02-18-10-35-06.jpg>
 [18/02/26, 11:41:15 a. m.] Daniela Lovera: que es eso ?
-[18/02/26, 11:52:17 a. m.] DML: la migracion, es la terminal
-[18/02/26, 1:03:36 p. m.] DML: pero si...
-[18/02/26, 1:03:37 p. m.] DML: en fin
-[18/02/26, 1:03:40 p. m.] DML: como va tu dia?
-[18/02/26, 1:03:50 p. m.] DML: tambien ya le baje a la intensidad de mis mensajes :S
-[18/02/26, 1:04:04 p. m.] DML: ya me dijeron que soy medio….. dependiente 😕
+[18/02/26, 11:52:16 a. m.] DML: la migracion, es la terminal
+[18/02/26, 1:03:35 p. m.] DML: pero si...
+[18/02/26, 1:03:36 p. m.] DML: en fin
+[18/02/26, 1:03:39 p. m.] DML: como va tu dia?
+[18/02/26, 1:03:49 p. m.] DML: tambien ya le baje a la intensidad de mis mensajes :S
+[18/02/26, 1:04:03 p. m.] DML: ya me dijeron que soy medio….. dependiente 😕
 [18/02/26, 1:04:16 p. m.] Daniela Lovera: quien?
 [18/02/26, 1:04:21 p. m.] DML: una amiga
 [18/02/26, 1:04:36 p. m.] DML: osea en el aspecto de que mando muchos audios muchos temas...
-[18/02/26, 1:04:38 p. m.] DML: mucho...
+[18/02/26, 1:04:37 p. m.] DML: mucho...
 [18/02/26, 1:04:58 p. m.] Daniela Lovera: pero eso no dependiente
 [18/02/26, 1:05:13 p. m.] Daniela Lovera: más bien es parte de tu deficit de atención
 [18/02/26, 1:05:26 p. m.] Daniela Lovera: una vez que sabes es mucho más facil
@@ -2747,7 +2747,7 @@ Dormir algo tarde :/
 [18/02/26, 9:28:44 p. m.] Daniela Lovera: Si no solo tienes que esperar a que te quiten del buro
 ‎[18/02/26, 9:30:12 p. m.] DML: ‎<adjunto: 00000120-AUDIO-2026-02-18-21-30-12.opus>
 [18/02/26, 9:33:10 p. m.] Daniela Lovera: Apoco así hablo 🫣🫣
-‎[18/02/26, 9:34:12 p. m.] DML: ‎<adjunto: 00000122-STICKER-2026-02-18-21-34-11.webp>
+‎[18/02/26, 9:34:11 p. m.] DML: ‎<adjunto: 00000122-STICKER-2026-02-18-21-34-11.webp>
 [18/02/26, 9:34:14 p. m.] DML: perdon
 [18/02/26, 9:34:21 p. m.] Daniela Lovera: Creemos que son los requerimientos del say
 [18/02/26, 9:34:26 p. m.] Daniela Lovera: Sat*
@@ -2755,18 +2755,18 @@ Dormir algo tarde :/
 [18/02/26, 9:36:22 p. m.] Daniela Lovera: 🤭🤭🤭🤭
 [18/02/26, 9:36:28 p. m.] Daniela Lovera: Creo que si
 [18/02/26, 9:36:46 p. m.] Daniela Lovera: Porque mi mamá dice que no se le debió pasar
-[18/02/26, 9:42:22 p. m.] DML: ya salio el peine...
+[18/02/26, 9:42:21 p. m.] DML: ya salio el peine...
 ‎[18/02/26, 9:42:30 p. m.] DML: ‎<adjunto: 00000131-PHOTO-2026-02-18-21-42-30.jpg>
-[18/02/26, 9:42:35 p. m.] DML: esta en mis comunicados...
+[18/02/26, 9:42:34 p. m.] DML: esta en mis comunicados...
 [18/02/26, 9:43:46 p. m.] Daniela Lovera: Y no lo hiciste ?
 [18/02/26, 9:43:57 p. m.] Daniela Lovera: Te llamas Roberto
-[18/02/26, 9:44:38 p. m.] DML: no sabias?
+[18/02/26, 9:44:37 p. m.] DML: no sabias?
 [18/02/26, 9:44:50 p. m.] DML: segun YO SI! pero hicismos la nueva linea de captura
 [18/02/26, 9:48:48 p. m.] Daniela Lovera: Nop
 [18/02/26, 9:48:54 p. m.] Daniela Lovera: Mhhhh
 [18/02/26, 9:49:13 p. m.] Daniela Lovera: Pues a ver no te puedes mater a tu buzón tributario
-[18/02/26, 9:50:42 p. m.] DML: justo ahie staba
-[18/02/26, 9:50:45 p. m.] DML: aparecio en comunicados
+[18/02/26, 9:50:41 p. m.] DML: justo ahie staba
+[18/02/26, 9:50:44 p. m.] DML: aparecio en comunicados
 [18/02/26, 9:50:47 p. m.] DML: ese que te mande
 [18/02/26, 10:48:59 p. m.] Daniela Lovera: Pero dice si tienes adeudo ?
 [19/02/26, 6:15:31 a. m.] DML: Según yo no
@@ -2774,32 +2774,32 @@ Dormir algo tarde :/
 [19/02/26, 6:15:52 a. m.] DML: Buenos días
 [19/02/26, 9:19:59 a. m.] Daniela Lovera: Buen día Meneses
 [19/02/26, 9:20:02 a. m.] Daniela Lovera: Pues si checalo
-[19/02/26, 9:27:27 a. m.] DML: Buenos dias Danny
-[19/02/26, 9:27:31 a. m.] DML: como amaneciste?
+[19/02/26, 9:27:26 a. m.] DML: Buenos dias Danny
+[19/02/26, 9:27:30 a. m.] DML: como amaneciste?
 [19/02/26, 9:37:21 a. m.] Daniela Lovera: Con más años !! Jajajajaja
 [19/02/26, 9:37:29 a. m.] Daniela Lovera: Y tu?
 [19/02/26, 9:58:03 a. m.] DML: ya fue tu cumple????
-[19/02/26, 9:58:07 a. m.] DML: pues ahi vamos...
+[19/02/26, 9:58:06 a. m.] DML: pues ahi vamos...
 [19/02/26, 9:58:09 a. m.] DML: peleando con unas cosillas
-[19/02/26, 9:58:13 a. m.] DML: ya en el trabajo
-[19/02/26, 9:58:17 a. m.] DML: pensando...
-[19/02/26, 9:58:20 a. m.] DML: pero bueno
-[19/02/26, 9:58:30 a. m.] DML: tambien pensando en las cosas que me has dicho
+[19/02/26, 9:58:12 a. m.] DML: ya en el trabajo
+[19/02/26, 9:58:16 a. m.] DML: pensando...
+[19/02/26, 9:58:19 a. m.] DML: pero bueno
+[19/02/26, 9:58:29 a. m.] DML: tambien pensando en las cosas que me has dicho
 [19/02/26, 10:01:01 a. m.] Daniela Lovera: Hoy
 [19/02/26, 10:01:39 a. m.] Daniela Lovera: Dicen que uno tiene que fluir pero a mi no me sale tan bien
-[19/02/26, 10:27:32 a. m.] DML: 😕 esta medio generico eso pero….
-[19/02/26, 10:27:37 a. m.] DML: yo creo que si te sale....
-[19/02/26, 10:27:41 a. m.] DML: oye....
+[19/02/26, 10:27:31 a. m.] DML: 😕 esta medio generico eso pero….
+[19/02/26, 10:27:36 a. m.] DML: yo creo que si te sale....
+[19/02/26, 10:27:40 a. m.] DML: oye....
 [19/02/26, 10:27:52 a. m.] DML: entonces este Viernes tampoco sera nuestro reencuentro, verdad?
 [19/02/26, 10:27:59 a. m.] Daniela Lovera: no me sale, en el trabajo soy muy aprensiva
-[19/02/26, 10:28:30 a. m.] DML: antes era asi hasta que me dieron ataques de ansiedad....
+[19/02/26, 10:28:29 a. m.] DML: antes era asi hasta que me dieron ataques de ansiedad....
 [19/02/26, 10:28:39 a. m.] DML: ademas hay otras recetas para aliviar eso...
 [19/02/26, 10:35:32 a. m.] Daniela Lovera: en que pensabas ? una cena puede ser
 [19/02/26, 10:35:38 a. m.] Daniela Lovera: o un café
 [19/02/26, 10:45:26 a. m.] DML: a lo mejor cenar....
-[19/02/26, 10:45:33 a. m.] DML: cafe en la noche ya no duermo :S
-[19/02/26, 10:59:01 a. m.] DML: como vez?
-[19/02/26, 10:59:06 a. m.] DML: te gusta la comida asiatica?
+[19/02/26, 10:45:32 a. m.] DML: cafe en la noche ya no duermo :S
+[19/02/26, 10:59:00 a. m.] DML: como vez?
+[19/02/26, 10:59:05 a. m.] DML: te gusta la comida asiatica?
 [19/02/26, 11:28:16 a. m.] Daniela Lovera: lo pides descafeinado
 [19/02/26, 11:28:27 a. m.] Daniela Lovera: jajajaj es que si yo ceno tampoco duermo
 [19/02/26, 11:28:39 a. m.] Daniela Lovera: define asiatica
@@ -2849,8 +2849,8 @@ Dormir algo tarde :/
 [20/02/26, 9:32:08 a. m.] Daniela Lovera: Buen día!
 [20/02/26, 9:32:47 a. m.] Daniela Lovera: Se me olvido por completo que hoy ya tenia compromiso, mis papás cumplen 38 años de casados
 [20/02/26, 9:32:54 a. m.] Daniela Lovera: Y vamos a celebrarlos
-[20/02/26, 9:42:46 a. m.] DML: :O
-[20/02/26, 9:42:53 a. m.] DML: vale, felicidades
+[20/02/26, 9:42:45 a. m.] DML: :O
+[20/02/26, 9:42:52 a. m.] DML: vale, felicidades
 [20/02/26, 9:45:36 a. m.] Daniela Lovera: Siiii toda una vida juntos yo creo que con mi edad ya no podría cumplir esos años de casada
 [20/02/26, 9:52:32 a. m.] DML: uno nunca sabe….
 [20/02/26, 10:05:21 a. m.] Daniela Lovera: pues es que tengo 32 si me casara hoy que no creo cuando cumpliera 38 años ya tendría 70 años
@@ -2971,10 +2971,10 @@ Dormir algo tarde :/
 [27/02/26, 7:34:25 a. m.] DML: Buenos días Danny
 [27/02/26, 7:34:38 a. m.] DML: Cómo amaneciste?
 [27/02/26, 10:16:06 a. m.] Daniela Lovera: Pues más o menos y tu
-[27/02/26, 10:29:18 a. m.] DML: y eso?
-[27/02/26, 10:29:21 a. m.] DML: pues bien
-[27/02/26, 10:29:22 a. m.] DML: en la loca
-[27/02/26, 10:29:28 a. m.] DML: regresando a darle
+[27/02/26, 10:29:17 a. m.] DML: y eso?
+[27/02/26, 10:29:20 a. m.] DML: pues bien
+[27/02/26, 10:29:21 a. m.] DML: en la loca
+[27/02/26, 10:29:27 a. m.] DML: regresando a darle
 [27/02/26, 10:32:50 a. m.] Daniela Lovera: Y TU PIE?
 [27/02/26, 11:15:50 a. m.] DML: Ya mejor
 [27/02/26, 11:15:59 a. m.] DML: Lo empecé a rehabilitar
@@ -3073,11 +3073,11 @@ Dormir algo tarde :/
 [02/03/26, 6:54:32 a. m.] DML: Pero ya ni me dijiste cómo te fue
 [02/03/26, 10:41:31 a. m.] Daniela Lovera: Bien, estuve en cama descansando y recuperándome ya me siento mucho mejor
 [02/03/26, 10:41:34 a. m.] Daniela Lovera: Vi series
-‎[02/03/26, 10:41:46 a. m.] DML: ‎<adjunto: 00000448-STICKER-2026-03-02-10-41-45.webp>
-[02/03/26, 10:41:53 a. m.] DML: y como te sientes hoy?
+‎[02/03/26, 10:41:45 a. m.] DML: ‎<adjunto: 00000448-STICKER-2026-03-02-10-41-45.webp>
+[02/03/26, 10:41:52 a. m.] DML: y como te sientes hoy?
 [02/03/26, 10:47:59 a. m.] Daniela Lovera: mejor, todavia prevelece como la sensación de agripada pero mucho mejor que el sabado
 [02/03/26, 10:48:08 a. m.] Daniela Lovera: creo que fue mi peor día
-[02/03/26, 10:52:27 a. m.] DML: :O
+[02/03/26, 10:52:26 a. m.] DML: :O
 [02/03/26, 11:01:28 a. m.] Daniela Lovera: pero siento que es el clima
 [02/03/26, 12:12:18 p. m.] DML: https://vt.tiktok.com/ZSmTPw3v3/
 [02/03/26, 5:34:16 p. m.] DML: Puede ser
@@ -3148,8 +3148,8 @@ Dormir algo tarde :/
 [05/03/26, 10:02:24 p. m.] DML: :O
 [05/03/26, 10:02:26 p. m.] DML: Tranqui
 [05/03/26, 10:04:35 p. m.] Daniela Lovera: También por acá
-[17/03/26, 12:34:41 p. m.] DML: que onda Lovera
-[17/03/26, 12:34:42 p. m.] DML: como sigues?
+[17/03/26, 12:34:40 p. m.] DML: que onda Lovera
+[17/03/26, 12:34:41 p. m.] DML: como sigues?
 [17/03/26, 7:00:15 p. m.] Daniela Lovera: Hola Meneses que milagro
 [17/03/26, 7:00:51 p. m.] Daniela Lovera: En lo personal ahí vamos pero en la parte laboral no la estoy pasando muy bien que digamos
 [17/03/26, 7:00:52 p. m.] Daniela Lovera: Y tu ?
@@ -3178,10 +3178,10 @@ Título formal
 ‎[18/03/26, 7:22:36 p. m.] DML: ‎<adjunto: 00000549-STICKER-2026-03-18-19-22-36.webp>
 [18/03/26, 7:22:43 p. m.] DML: Porque dices eso? XD
 [18/03/26, 9:12:29 p. m.] Daniela Lovera: Pues porque te digo que me empieza a quedar grande el puesto
-[20/03/26, 8:03:43 a. m.] DML: :O
-[20/03/26, 8:03:46 a. m.] DML: no diga eso Danny
-[20/03/26, 8:03:49 a. m.] DML: Buenos dias
-[20/03/26, 8:03:57 a. m.] DML: solo te estas acostumbrando…
+[20/03/26, 8:03:42 a. m.] DML: :O
+[20/03/26, 8:03:45 a. m.] DML: no diga eso Danny
+[20/03/26, 8:03:48 a. m.] DML: Buenos dias
+[20/03/26, 8:03:56 a. m.] DML: solo te estas acostumbrando…
 [20/03/26, 9:03:40 a. m.] Daniela Lovera: Ojalá solo fuera eso Meneses
 [20/03/26, 9:03:44 a. m.] Daniela Lovera: Me siento bien mal
 [20/03/26, 9:04:25 a. m.] Daniela Lovera: Igual y esto te resulta bien raro que te cuente esto
@@ -3295,7 +3295,7 @@ Ayer fui a una plaza a comprar unos pantalones, estuvimos igual en familia y com
 [12/04/26, 9:44:07 p. m.] Daniela Lovera: Es el ambiente
 [12/04/26, 9:44:12 p. m.] Daniela Lovera: Cada vez más contaminando
 [12/04/26, 9:44:17 p. m.] Daniela Lovera: Y los cambios de temperatura
-[13/04/26, 7:10:51 p. m.] DML: No manches, tienes razón, la ciudad no se veía así hace unos años según yo
+[13/04/26, 7:10:50 p. m.] DML: No manches, tienes razón, la ciudad no se veía así hace unos años según yo
 [13/04/26, 7:24:54 p. m.] Daniela Lovera: Como ?
 [13/04/26, 7:55:56 p. m.] Daniela Lovera: De casualidad te  equivocaste de chat ?
 [13/04/26, 8:40:44 p. m.] DML: Si, esta super contaminada la ciudad a eso me refiero
@@ -3318,8 +3318,8 @@ Ayer fui a una plaza a comprar unos pantalones, estuvimos igual en familia y com
 [14/04/26, 11:36:14 a. m.] Daniela Lovera: y no es queja
 [14/04/26, 11:36:22 a. m.] Daniela Lovera: me agrada más que cuando se profundizaba
 [14/04/26, 11:36:36 a. m.] Daniela Lovera: teníamos serios problemas de malos entendidos
-[14/04/26, 12:17:59 p. m.] DML: Me alegra que me recuerdes de alguna manera
-[14/04/26, 12:18:15 p. m.] DML: Si, justo eso, me gusta tener conversaciones triviales, al final somos humanos. Sobre los malentendidos, te gustaría hablarlo? Al final de los errores se aprende.
+[14/04/26, 12:17:58 p. m.] DML: Me alegra que me recuerdes de alguna manera
+[14/04/26, 12:18:14 p. m.] DML: Si, justo eso, me gusta tener conversaciones triviales, al final somos humanos. Sobre los malentendidos, te gustaría hablarlo? Al final de los errores se aprende.
 [14/04/26, 12:27:49 p. m.] Daniela Lovera: no para nada fueron simplemente mala comunicación este medio no es para tener conversaciones importantes
 [14/04/26, 12:27:54 p. m.] Daniela Lovera: son para eso trivialidades
 [14/04/26, 12:28:27 p. m.] Daniela Lovera: la interaccion humana nunca se comparará con la vida via remota
@@ -3609,7 +3609,7 @@ Regreso?
 [20/05/26, 7:43:17 p. m.] Daniela Lovera: Que tal tu día?
 [20/05/26, 7:43:29 p. m.] Daniela Lovera: Oye tu haces calistenia no?
 [20/05/26, 7:52:55 p. m.] DML: nop, uso pesos
-[20/05/26, 7:53:03 p. m.] DML: ahi vamos y tu?
+[20/05/26, 7:53:02 p. m.] DML: ahi vamos y tu?
 [20/05/26, 8:01:36 p. m.] Daniela Lovera: Pensé que si, pero sabes como es esa disciplina?
 [20/05/26, 8:01:42 p. m.] Daniela Lovera: Igual, mucho trabajo
 [21/05/26, 2:13:15 a. m.] DML: Básicamente puro peso corporal
@@ -3637,7 +3637,7 @@ Regreso?
 [23/05/26, 8:42:04 p. m.] Daniela Lovera: El sábado te diría que no lo consideremos
 [23/05/26, 8:42:18 p. m.] Daniela Lovera: Y el domingo después de las dos
 [23/05/26, 8:42:22 p. m.] Daniela Lovera: Y tu ?
-[24/05/26, 11:43:15 a. m.] DML: Buenos días. Gustas que pase por ti al trabajo? O te sientes más cómoda si nos vemos directo en el café?
+[24/05/26, 11:43:14 a. m.] DML: Buenos días. Gustas que pase por ti al trabajo? O te sientes más cómoda si nos vemos directo en el café?
 [24/05/26, 7:13:54 p. m.] Daniela Lovera: Hola Meneses!!
 [24/05/26, 7:14:12 p. m.] Daniela Lovera: Mejor nos vemos en el café
 [24/05/26, 10:03:03 p. m.] DML: Vale, yo tengo una, agenda más flexible, qué día y hora te acomoda mejor?
@@ -3786,11 +3786,11 @@ Regreso?
 [01/06/26, 8:10:29 p. m.] DML: :O
 [01/06/26, 8:10:38 p. m.] DML: Pero no son los que venden en el Sams?
 [01/06/26, 8:11:02 p. m.] Daniela Lovera: Como ?
-[01/06/26, 8:12:25 p. m.] DML: aja. ya lo venden hechos, pero no son esos, verdad?
+[01/06/26, 8:12:24 p. m.] DML: aja. ya lo venden hechos, pero no son esos, verdad?
 [01/06/26, 8:12:46 p. m.] Daniela Lovera: Nop, estos los haces tu
-[01/06/26, 8:15:30 p. m.] DML: :O
-[01/06/26, 8:15:32 p. m.] DML: y que tal?
-[01/06/26, 8:15:37 p. m.] DML: entonces ya para cenar?
+[01/06/26, 8:15:29 p. m.] DML: :O
+[01/06/26, 8:15:31 p. m.] DML: y que tal?
+[01/06/26, 8:15:36 p. m.] DML: entonces ya para cenar?
 [01/06/26, 8:16:02 p. m.] Daniela Lovera: Pues no muy buenos pero es lo que hay
 [01/06/26, 8:16:07 p. m.] Daniela Lovera: Ya termine
 [01/06/26, 8:16:09 p. m.] Daniela Lovera: Jajajajaja
@@ -3808,8 +3808,8 @@ Regreso?
 ‎[02/06/26, 8:05:33 a. m.] DML: ‎<adjunto: 00001175-PHOTO-2026-06-02-08-05-33.jpg>
 [02/06/26, 9:28:55 a. m.] Daniela Lovera: Hola Meneses son los que comes tu ?
 [02/06/26, 9:29:03 a. m.] Daniela Lovera: Es tu refrigerador?
-[02/06/26, 10:04:17 a. m.] DML: es in congelador XD
-[02/06/26, 10:04:24 a. m.] DML: no, pero ahi los tengo XD
+[02/06/26, 10:04:16 a. m.] DML: es in congelador XD
+[02/06/26, 10:04:23 a. m.] DML: no, pero ahi los tengo XD
 [02/06/26, 10:04:29 a. m.] DML: dicen que estan buenos
 [02/06/26, 10:04:52 a. m.] Daniela Lovera: Por ?? No los compraste tu ?
 [02/06/26, 10:05:18 a. m.] Daniela Lovera: Ha de ser pero tienen exceso de azúcares
@@ -3817,34 +3817,34 @@ Regreso?
 [02/06/26, 11:11:04 a. m.] DML: si, pero no los he probado. No me late tanto las cosas dulces o las harinas
 [02/06/26, 12:37:15 p. m.] Daniela Lovera: yo soy la señorita algodón de azucar}
 [02/06/26, 12:50:29 p. m.] Daniela Lovera: 🧁🍧🍭
-[02/06/26, 3:22:22 p. m.] DML: Jajajaja eso explica muchas cosas.
-[02/06/26, 3:22:36 p. m.] DML: 🙃
-[02/06/26, 3:22:55 p. m.] DML: pero prefieres el sabor a chocolate o solo caramel?
+[02/06/26, 3:22:21 p. m.] DML: Jajajaja eso explica muchas cosas.
+[02/06/26, 3:22:35 p. m.] DML: 🙃
+[02/06/26, 3:22:54 p. m.] DML: pero prefieres el sabor a chocolate o solo caramel?
 [02/06/26, 3:23:29 p. m.] DML: igual y podrias disfrazar el sabor de los hotcakes con cocoa… no tiene azucar como tal
 [02/06/26, 3:28:42 p. m.] Daniela Lovera: Como cuales ?
 [02/06/26, 3:29:08 p. m.] Daniela Lovera: Mhhhh mi debilidad es el pan dulce
 [02/06/26, 3:29:20 p. m.] Daniela Lovera: Es amargo
-[02/06/26, 3:29:51 p. m.] DML: pero ya en la harina de los hotcakes deberia de tapar ese sabor raro de la prote… creo
+[02/06/26, 3:29:50 p. m.] DML: pero ya en la harina de los hotcakes deberia de tapar ese sabor raro de la prote… creo
 [02/06/26, 3:30:05 p. m.] Daniela Lovera: Ahhhh eso si podría ser
 [02/06/26, 3:30:12 p. m.] Daniela Lovera: Lo intentaré
 [02/06/26, 3:30:23 p. m.] Daniela Lovera: Pero no es fácil
 [02/06/26, 3:30:34 p. m.] DML: y como va tu dia?
 [02/06/26, 3:31:46 p. m.] Daniela Lovera: Mhhhh medio x la verdad y el tuyo
-[02/06/26, 3:33:17 p. m.] DML: y eso?
+[02/06/26, 3:33:16 p. m.] DML: y eso?
 [02/06/26, 3:34:14 p. m.] Daniela Lovera: Pues es un día simplón
 [02/06/26, 3:34:19 p. m.] Daniela Lovera: Me aburren esos días
-[02/06/26, 3:35:32 p. m.] DML: no hay mucho en la chamba?
+[02/06/26, 3:35:31 p. m.] DML: no hay mucho en la chamba?
 [02/06/26, 3:36:11 p. m.] Daniela Lovera: Siii pero lo que hay no me implica ningún reto
-[02/06/26, 3:36:54 p. m.] DML: :O
-[02/06/26, 3:36:59 p. m.] DML: hoy te toco ir a la oficina?
+[02/06/26, 3:36:53 p. m.] DML: :O
+[02/06/26, 3:36:58 p. m.] DML: hoy te toco ir a la oficina?
 [02/06/26, 3:44:29 p. m.] Daniela Lovera: Todos los días excepto el viernes
 [03/06/26, 9:39:10 a. m.] Daniela Lovera: Buen día! Ayer me dejaste en visto 🥲
 [03/06/26, 12:39:31 p. m.] DML: Quieres salir el viernes?
 [03/06/26, 12:39:59 p. m.] Daniela Lovera: si quiero salir contigo
 [03/06/26, 12:40:17 p. m.] Daniela Lovera: pero a donde ?
 [03/06/26, 12:40:33 p. m.] Daniela Lovera: recuerda que cosas exrtañas no me encataria
-[03/06/26, 12:56:50 p. m.] DML: Que cosas no se te hacen extrañas? O a que te refieres con eso XD
-[03/06/26, 12:59:42 p. m.] DML: que te parece la cineteca?
+[03/06/26, 12:56:49 p. m.] DML: Que cosas no se te hacen extrañas? O a que te refieres con eso XD
+[03/06/26, 12:59:41 p. m.] DML: que te parece la cineteca?
 [03/06/26, 1:08:03 p. m.] Daniela Lovera: me agrada
 [03/06/26, 4:22:56 p. m.] Daniela Lovera: y como va tu día ?
 [03/06/26, 4:36:24 p. m.] DML: Perdona apenas comiendo y tu?
@@ -3910,32 +3910,99 @@ Regreso?
 [03/06/26, 10:30:39 p. m.] Daniela Lovera: Fue mucha agua
 [03/06/26, 10:42:27 p. m.] Daniela Lovera: Ya no puedo mantener los ojos abiertos, linda noche
 [04/06/26, 9:11:51 a. m.] DML: si ntp
-[04/06/26, 9:11:54 a. m.] DML: Buenos dias Danny ‎<Se editó este mensaje.>
+[04/06/26, 9:11:53 a. m.] DML: Buenos dias Danny ‎<Se editó este mensaje.>
 [04/06/26, 10:17:28 a. m.] DML: Cómo amaneciste?
 [04/06/26, 10:50:45 a. m.] Daniela Lovera: holi :)
 [04/06/26, 10:50:54 a. m.] Daniela Lovera: no pase buena noche
 [04/06/26, 10:53:54 a. m.] Daniela Lovera: y tu ?
-[04/06/26, 12:10:51 p. m.] DML: y eso? que paso?
+[04/06/26, 12:10:50 p. m.] DML: y eso? que paso?
 [04/06/26, 12:11:03 p. m.] DML: pues similar, tu crees?
 [04/06/26, 12:26:03 p. m.] Daniela Lovera: mi perrito se puso malito de su estomago y ademas estuvo lloviendo tan feo con tormenta eléctrica y a mi me da mucho miedo, así que no domi tan bien
 [04/06/26, 12:26:11 p. m.] Daniela Lovera: y eso ?
 [04/06/26, 12:26:28 p. m.] Daniela Lovera: algo así me imagine porque ya no me contestaste
-[04/06/26, 12:35:54 p. m.] DML: pues al final no me acabe el plato que te dije...
-[04/06/26, 12:35:55 p. m.] DML: era mucho
-[04/06/26, 12:35:58 p. m.] DML: y….
-[04/06/26, 12:36:02 p. m.] DML: no se algo me pasa que...
-[04/06/26, 12:36:14 p. m.] DML: me despierto super temprano, onda 4:40 am
+[04/06/26, 12:35:53 p. m.] DML: pues al final no me acabe el plato que te dije...
+[04/06/26, 12:35:54 p. m.] DML: era mucho
+[04/06/26, 12:35:57 p. m.] DML: y….
+[04/06/26, 12:36:01 p. m.] DML: no se algo me pasa que...
+[04/06/26, 12:36:13 p. m.] DML: me despierto super temprano, onda 4:40 am
 [04/06/26, 12:36:38 p. m.] Daniela Lovera: algo te preocupa ?
 [04/06/26, 12:37:01 p. m.] DML: que no te vaya a gustar la cineteca XD
 [04/06/26, 12:37:12 p. m.] Daniela Lovera: en serio?
 [04/06/26, 12:41:25 p. m.] DML: pero ya esta mejor? fuiste al Vet?
-[04/06/26, 12:41:35 p. m.] DML: Entonces no te gustan los dias lluviosos?
+[04/06/26, 12:41:34 p. m.] DML: Entonces no te gustan los dias lluviosos?
 [04/06/26, 12:42:00 p. m.] Daniela Lovera: nop, porque en la mañana ya estaba bien
 [04/06/26, 12:42:13 p. m.] Daniela Lovera: de seguro algo comio que la hizo mal
 [04/06/26, 12:42:24 p. m.] Daniela Lovera: nop
 [04/06/26, 12:42:35 p. m.] Daniela Lovera: pero si hay tormenta eléctrica es horrible
-[04/06/26, 12:43:24 p. m.] DML: :O
+[04/06/26, 12:43:23 p. m.] DML: :O
 [04/06/26, 12:45:05 p. m.] Daniela Lovera: ?
 [04/06/26, 12:47:05 p. m.] DML: team calor, no?
 [04/06/26, 12:47:53 p. m.] Daniela Lovera: mhhh tampoco
 [04/06/26, 12:47:59 p. m.] Daniela Lovera: me gusta el otoño
+[04/06/26, 12:50:27 p. m.] DML: Igual y fue que le dio
+Miedo también no?
+[04/06/26, 12:52:05 p. m.] Daniela Lovera: No la miedosa soy yo
+[04/06/26, 12:57:53 p. m.] DML: La verdad a mi si me gusta la lluvia, pero prefiero que llueva de a poco, sin truenos. También me gusta el otoño. Hablando de, te gusta el Halloween?
+[04/06/26, 1:00:11 p. m.] Daniela Lovera: Es que en primavera e invierno me da alergia, en verano llueve así que otoño es el clima perfecto para mi
+[04/06/26, 1:00:22 p. m.] Daniela Lovera: Pero no me gusta el halloween
+[04/06/26, 1:04:01 p. m.] DML: Que es lo que no te gusta?
+[04/06/26, 1:06:28 p. m.] Daniela Lovera: Ahhh pues principalmente de donde viene
+[04/06/26, 1:06:32 p. m.] Daniela Lovera: Sus raíces
+[04/06/26, 1:07:21 p. m.] Daniela Lovera: Porque la pregunta ?
+[04/06/26, 1:12:47 p. m.] DML: Nada en especial, me interesa saber de ti
+[04/06/26, 1:14:30 p. m.] Daniela Lovera: a ti te gusta ?
+[04/06/26, 1:16:50 p. m.] DML: La verdad me da igual, pensé que a ti si te gustaba porque normalmente la gente relaciona el otoño con Halloween, es padre saber que tú no
+[04/06/26, 1:23:27 p. m.] Daniela Lovera: en serio hacen esa relación ?
+[04/06/26, 1:23:36 p. m.] Daniela Lovera: pues ni nuestra cultura es
+[04/06/26, 1:23:49 p. m.] Daniela Lovera: a mi nunca me gusto
+[04/06/26, 1:43:56 p. m.] Daniela Lovera: y a ti?
+[04/06/26, 2:33:34 p. m.] DML: Te digo, me da igual, claro que en algún punto llegue a disfrazarme y todo, pero no es como que fuera lo mejor de la vida, equis
+[04/06/26, 3:30:17 p. m.] Daniela Lovera: Todo bien ?
+[04/06/26, 4:33:35 p. m.] DML: Si perdona… el trabajo
+[04/06/26, 4:33:38 p. m.] DML: Cómo va todo por allá?
+[04/06/26, 4:33:48 p. m.] DML: Que tal la chamba? Hoy si sales a las 5?
+[04/06/26, 4:33:58 p. m.] Daniela Lovera: sentí que te habias molestado por algo que dije
+[04/06/26, 4:34:46 p. m.] DML: Para nada, perdona es más porque es Jueves jajajaja
+[04/06/26, 4:34:52 p. m.] DML: Ya ando más pensando en Viernes
+[04/06/26, 4:34:55 p. m.] DML: Btw
+[04/06/26, 4:35:02 p. m.] DML: Mañana paso por ti a algún lugar?
+[04/06/26, 4:36:10 p. m.] Daniela Lovera: ohhh tienes mucho ?
+[04/06/26, 4:36:19 p. m.] Daniela Lovera: no, a las 6:00
+[04/06/26, 4:36:30 p. m.] Daniela Lovera: y que pasa los jueves
+[04/06/26, 4:36:44 p. m.] Daniela Lovera: y eso ?
+[04/06/26, 4:38:11 p. m.] Daniela Lovera: si quieres nos podemos ver en la cineteca para que no des tantisimas vueltas y te agradecería si mejor me regresas a casita por si salimos tarde, como ves?
+[04/06/26, 4:55:18 p. m.] DML: Perfecto! Sin temas, pero no te queda lejos?
+[04/06/26, 4:59:53 p. m.] Daniela Lovera: https://maps.google.com/maps?vet=10CAAQoqAOahcKEwiQm8zx1-6UAxUAAAAAHQAAAAAQEQ..i&pvq=CgwvZy8xMWdfa3QycnEiFwoRY2luZXRlY2EgbmFjaW9uYWwQAhgD&lqi=ChpjaW5ldGVjYSBuYWNpb25hbCBjb3lvYWNhbkj2lfL4u4GAgAhaJhAAEAEYABgBGAIiGmNpbmV0ZWNhIG5hY2lvbmFsIGNveW9hY2FukgENbW92aWVfdGhlYXRlcg&fvr=1&cs=0&um=1&ie=UTF-8&fb=1&gl=mx&sa=X&ftid=0x85d1ffc0bdd5331d:0x96e188ebb2ad7d82
+[04/06/26, 4:59:58 p. m.] Daniela Lovera: es en esta ?
+[04/06/26, 5:07:59 p. m.] DML: Justo
+[04/06/26, 5:10:22 p. m.] Daniela Lovera: me queda a 30 min
+[04/06/26, 6:16:08 p. m.] DML: Cool!
+[04/06/26, 6:16:12 p. m.] DML: Ahora si ya saliendo de la offi?
+[04/06/26, 6:16:17 p. m.] DML: Ya lista para el gym?
+[04/06/26, 6:16:22 p. m.] DML: Igual yo apenas le voy a dar….
+[04/06/26, 6:27:49 p. m.] DML: Creo que soy el licenciado más ingeniero que posiblemente conozcas
+[04/06/26, 6:31:34 p. m.] Daniela Lovera: Voy saliendo
+[04/06/26, 6:31:46 p. m.] Daniela Lovera: No, si te dije que hasta la próxima semana ?
+[04/06/26, 6:31:59 p. m.] Daniela Lovera: Hoy es jueves vengo con mi amiga al café
+[04/06/26, 6:32:15 p. m.] Daniela Lovera: Eres muy disciplinado
+[04/06/26, 6:32:26 p. m.] Daniela Lovera: Porque lo dices ?
+[04/06/26, 7:05:51 p. m.] DML:
+‎[04/06/26, 7:05:52 p. m.] DML: ‎<adjunto: 00001356-PHOTO-2026-06-04-19-05-52.jpg>
+‎[04/06/26, 7:05:53 p. m.] DML: ‎<adjunto: 00001357-PHOTO-2026-06-04-19-05-53.jpg>
+‎[04/06/26, 7:05:53 p. m.] DML: ‎<adjunto: 00001358-PHOTO-2026-06-04-19-05-53.jpg>
+‎[04/06/26, 7:05:53 p. m.] DML: ‎<adjunto: 00001359-PHOTO-2026-06-04-19-05-53.jpg>
+‎[04/06/26, 7:05:53 p. m.] DML: ‎<adjunto: 00001360-PHOTO-2026-06-04-19-05-53.jpg>
+‎[04/06/26, 7:05:53 p. m.] DML: ‎<adjunto: 00001361-PHOTO-2026-06-04-19-05-53.jpg>
+‎[04/06/26, 7:05:54 p. m.] DML: ‎<adjunto: 00001362-PHOTO-2026-06-04-19-05-54.jpg>
+[04/06/26, 8:21:41 p. m.] DML: No todos nos podemos ver tan bien como tú solo por existir
+[04/06/26, 8:31:08 p. m.] DML: Oye quien va a ganar México o Serbia??? Que apostaste con tu papá??
+[04/06/26, 9:32:09 p. m.] Daniela Lovera: Mhhhhh pues eso no es del todo verdad
+[04/06/26, 9:32:30 p. m.] Daniela Lovera: Esta vez no lo vi, acabo de regresar a casa de ver a mi amiga
+[04/06/26, 10:16:18 p. m.] DML: Y como les fue?
+[04/06/26, 10:16:26 p. m.] DML: Fueron al Starbucks?
+[04/06/26, 10:17:55 p. m.] Daniela Lovera: Bien gracias
+[04/06/26, 10:18:02 p. m.] Daniela Lovera: Siii
+[04/06/26, 10:18:12 p. m.] Daniela Lovera: Pues gano México
+[04/06/26, 11:14:47 p. m.] Daniela Lovera: Buenas noches!
+[05/06/26, 7:01:38 a. m.] DML: Buenos días Danny
+[05/06/26, 7:57:30 a. m.] DML: Ahora si me ganaste
